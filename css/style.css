@@ -4,7 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Dosis', sans-serif;
-
+    scroll-behavior: smooth;
 }
 .color-f2f2f2{
     color: #f2f2f2;
@@ -291,7 +291,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    margin: 80px auto 180px auto;
+    margin: 80px auto 120px auto;
 }
 .container-forms{
     display: flex;
@@ -412,6 +412,13 @@
     .card-contacts img{
         max-width: 50px;
     }
+}
+/* Maps */
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 /* Footer */
