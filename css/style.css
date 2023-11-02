@@ -45,6 +45,28 @@
     margin:80px;
 }
 
+.contact-us{
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 10px 35px !important;
+
+}
+
+@media (max-width:700px) {
+    .contact-us{
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 8px 23px !important;
+        margin-top: -50px;
+    
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
 
 
 @keyframes jmbanner{
@@ -491,6 +513,7 @@ footer{
     display: flex;
     align-items: flex-start !important;
 }
+
 @media (max-width: 900px){
     .footer-responsive{
         display: flex;
